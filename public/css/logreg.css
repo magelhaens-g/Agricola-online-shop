@@ -1,0 +1,107 @@
+.login-form {
+    width: 360px;
+    background-color: rgba(149, 165, 166, 0.4);
+    height: auto;
+    padding: 40px 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.txtb {
+    border-bottom: 2px solid #ecf0f1;
+    position: relative;
+    margin: 30px 0;
+}
+
+.txtb input {
+    font-size: 15px;
+    color: #000000;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+}
+
+.txtb span::before {
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #ecf0f1;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: .5s;
+}
+
+.txtb span::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(120deg, #2ecc71, #27ae60);
+    transition: .5s;
+}
+
+.focus + span::after {
+    width: 100%;
+}
+
+.focus + span::before {
+    top: -5px;
+}
+
+.logbtn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+    background: linear-gradient(120deg, #2ecc71, #27ae60);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cancelbtn {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-bottom: 15px;
+    background: linear-gradient(120deg, #e74c3c, #c0392b);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.logbtn:hover {
+    background-position: right;
+}
+
+.cancelbtn:hover {
+    background-position: right;
+}
+
+.bottom-text {
+    margin-top: 0px;
+    text-align: right;
+    font-size: 13px;
+}
