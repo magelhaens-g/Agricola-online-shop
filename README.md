@@ -12,7 +12,8 @@ Essence Demo Template - https://preview.colorlib.com/#essence
 Electro Demo Template - https://preview.colorlib.com/#electro
 
 ## Database
-You can access the database in database branch
+You can access the database in https://drive.google.com/drive/folders/1_RKlW20Qd0fnNOlfNWs0UrXDF96j7scb?usp=sharing
+
 Here is some info about admin account
 email: admin@agricola.com
 pass: admin123
